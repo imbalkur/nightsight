@@ -1,0 +1,215 @@
+html{
+  margin: 0;
+}
+body{
+  margin-top: 20px;
+  background: black;
+  color: white;
+}
+.b1{
+  position: fixed;
+  bottom: 0;
+  height: 100px;
+  width: 10%;
+  background: #26004d;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.win1{
+  height: 10px;
+  width: 10px;
+  background: #b3b300;
+  margin: 8px;
+  float: left;
+}
+.b2{
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  width: 8%;
+  background: #264d73;
+  margin-left: 10%;
+}
+.b3{
+  position: fixed;
+  bottom: 0;
+  height: 90px;
+  width: 9%;
+  background: #330066;
+  margin-left: 20%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.win3{
+  height: 10px;
+  width: 10px;
+  background: #b3b3b3;
+  margin: 8px;
+  float: left;
+}
+.b4{
+  position: fixed;
+  bottom: 0;
+  height: 120px;
+  width: 15%;
+  background: #002266;
+  margin-left: 60%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.win4{
+  height: 20px;
+  width: 20px;
+  background: #1a1a1a;
+  margin: 8px;
+  float: left;
+}
+.b5{
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 5%;
+  background: #330066;
+  margin-left: 80%;
+}
+.win5{
+  height: 20px;
+  width: 30px;
+  background: #808080;
+  margin: 8px;
+  float: left;
+}
+.b6{
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  width: 15%;
+  background: #2952a3;
+  margin-left: 50%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.win6{
+  height: 20px;
+  width: 25px;
+  background: #808080;
+  margin: 8px;
+  float: left;
+}
+.b7{
+  position: fixed;
+  bottom: 0;
+  height: 150px;
+  width: 7%;
+  background: #000066;
+  margin-left: 90%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.win7{
+  height: 15px;
+  width: 10px;
+  background: #b3b3b3;
+  margin: 8px;
+  float: left;
+}
+.b8{
+  position: fixed;
+  bottom: 0;
+  height: 100px;
+  width: 13%;
+  background: #2d2d86;
+  margin-left: 30%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.win8{
+  height: 15px;
+  width: 70%;
+  background: #808000;
+  margin: 8px;
+  float: left;
+}
+.b9{
+  position: fixed;
+  bottom: 0;
+  height: 90px;
+  width: 54%;
+  background: #330033;
+  margin-left: 40%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.b10{
+  position: fixed;
+  bottom: 0;
+  height: 80px;
+  width: 10%;
+  background: #191966;
+  margin-left: 40%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.win10{
+  height: 15px;
+  width: 10px;
+  background: #808000;
+  margin: 8px;
+  float: left;
+}
+.rocket{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.part1{
+  background: linear-gradient(to right, #e6e6e6 0%, #8c8c8c 100%);
+  height: 250px;
+  width: 100px;
+  position: relative;
+  border-radius: 75%;
+  animation: part1 4s linear infinite;
+}
+
+@keyframes part1{
+   0%   {left:0px; top:200px;}
+  100% {left: 0px; top: -500px;}
+}
+
+.tri-down{
+  margin-top: 100px;
+  width: 50px;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+  border-bottom: 50px solid #990000;
+}
+.rocwin{
+  margin-top: 50px;
+  margin-left: 20px;
+  height: 60px;
+  width: 60px;
+  background: linear-gradient(to right, #66d9ff 0%, #007399 100%);
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.snow{
+background-image: url(https://i.imgur.com/uYjnk8N.png),
+           url(https://i.imgur.com/iAGD6MA.png),
+           url(https://i.imgur.com/hIJDjbg.png);
+animation: snow 30s linear infinite;
+}
+
+@keyframes snow {
+    0% {background-position: 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px}
+}
+.cloud{
+  position: relative;
+  animation: cloud 14s linear infinite;
+}
+@keyframes cloud{
+   0%  {left:-500px; top:-100px;}
+  100% {left: 500px;top:-100px;}
+}
